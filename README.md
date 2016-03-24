@@ -1,34 +1,35 @@
-[![Build Status](https://travis-ci.org/angular/angular.svg?branch=master)](https://travis-ci.org/angular/angular) 
-[![Join the chat at https://gitter.im/angular/angular](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/angular/angular?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Issue Stats](http://issuestats.com/github/angular/angular/badge/pr)](http://issuestats.com/github/angular/angular)
-[![Issue Stats](http://issuestats.com/github/angular/angular/badge/issue)](http://issuestats.com/github/angular/angular)
-[![npm version](https://badge.fury.io/js/angular2.svg)](http://badge.fury.io/js/angular2)
-[![Downloads](http://img.shields.io/npm/dm/angular2.svg)](https://npmjs.org/package/angular2)
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/angular2-ci.svg)](https://saucelabs.com/u/angular2-ci)
+<div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
+    <h3>
+      <svg aria-hidden="true" class="octicon octicon-book" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M2 5h4v1H2v-1z m0 3h4v-1H2v1z m0 2h4v-1H2v1z m11-5H9v1h4v-1z m0 2H9v1h4v-1z m0 2H9v1h4v-1z m2-6v9c0 0.55-0.45 1-1 1H8.5l-1 1-1-1H1c-0.55 0-1-0.45-1-1V3c0-0.55 0.45-1 1-1h5.5l1 1 1-1h5.5c0.55 0 1 0.45 1 1z m-8 0.5l-0.5-0.5H1v9h6V3.5z m7-0.5H8.5l-0.5 0.5v8.5h6V3z"></path></svg><trans data-src="
+      README.md
+    " data-dst="readme.md" style="background: transparent;">readme.md</trans></h3>
 
-Angular 
-=========
+      <article class="markdown-body entry-content" itemprop="text"><p><a href="https://travis-ci.org/angular/angular"><img src="https://camo.githubusercontent.com/8d227cc53b74107a9721d592157e02723beb43a9/68747470733a2f2f7472617669732d63692e6f72672f616e67756c61722f616e67756c61722e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://travis-ci.org/angular/angular.svg?branch=master" style="max-width:100%;"></a> 
+<a href="https://gitter.im/angular/angular?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://camo.githubusercontent.com/da2edb525cde1455a622c58c0effc3a90b9a181c/68747470733a2f2f6261646765732e6769747465722e696d2f4a6f696e253230436861742e737667" alt="Join the chat at https://gitter.im/angular/angular" data-canonical-src="https://badges.gitter.im/Join%20Chat.svg" style="max-width:100%;"></a>
+<a href="http://issuestats.com/github/angular/angular"><img src="https://camo.githubusercontent.com/366aee4bd44d826ba57aa4d36569f4da51d8be91/687474703a2f2f697373756573746174732e636f6d2f6769746875622f616e67756c61722f616e67756c61722f62616467652f7072" alt="Issue Stats" data-canonical-src="http://issuestats.com/github/angular/angular/badge/pr" style="max-width:100%;"></a>
+<a href="http://issuestats.com/github/angular/angular"><img src="https://camo.githubusercontent.com/e0291c1cd11fd994e55409e372040a50019e66a1/687474703a2f2f697373756573746174732e636f6d2f6769746875622f616e67756c61722f616e67756c61722f62616467652f6973737565" alt="Issue Stats" data-canonical-src="http://issuestats.com/github/angular/angular/badge/issue" style="max-width:100%;"></a>
+<a href="http://badge.fury.io/js/angular2"><img src="https://camo.githubusercontent.com/3b27490bb00c27024faf41034f9237375d86a50f/68747470733a2f2f62616467652e667572792e696f2f6a732f616e67756c6172322e737667" alt="npm version" data-canonical-src="https://badge.fury.io/js/angular2.svg" style="max-width:100%;"></a>
+<a href="https://npmjs.org/package/angular2"><img src="https://camo.githubusercontent.com/6146935a36f035a40e4586384bfbea8a4507d673/687474703a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f616e67756c6172322e737667" alt="Downloads" data-canonical-src="http://img.shields.io/npm/dm/angular2.svg" style="max-width:100%;"></a>
+<a href="https://saucelabs.com/u/angular2-ci"><img src="https://camo.githubusercontent.com/efa5a8b6df23b248c39a72d85bc654db9a10def5/68747470733a2f2f73617563656c6162732e636f6d2f62726f777365722d6d61747269782f616e67756c6172322d63692e737667" alt="Sauce Test Status" data-canonical-src="https://saucelabs.com/browser-matrix/angular2-ci.svg" style="max-width:100%;"></a></p>
 
-Angular is a development platform for building mobile and desktop web applications. This is the
-repository for [Angular 2][ng2], both the JavaScript (JS) and [Dart][dart] versions.
+<h1><a id="user-content-angular-" class="anchor" href="#angular-" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a><trans data-src="Angular " data-dst="角" style="background: transparent;">角</trans></h1>
 
-Angular 2 is currently in **Beta**. 
+<p><trans data-src="Angular is a development platform for building mobile and desktop web applications. This is the
+repository for " data-dst="角是一个构建移动和桌面Web应用开发平台。这是
+库" style="background: transparent;">角是一个构建移动和桌面Web应用开发平台。这是
+库</trans><a href="http://angular.io"><trans data-src="Angular 2" data-dst="角2">角2</trans></a><trans data-src=", both the JavaScript (JS) and " data-dst="，两JavaScript（JS）和">，两JavaScript（JS）和</trans><a href="http://www.dartlang.org"><trans data-src="Dart" data-dst="飞镖">飞镖</trans></a><trans data-src=" versions." data-dst="版本。">版本。</trans></p>
 
-## Quickstart
+<p><trans data-src="Angular 2 is currently in " data-dst="2是目前在角" style="background: transparent;">2是目前在角</trans><strong><trans data-src="Beta" data-dst="测试版" style="background: transparent;">测试版</trans></strong><trans data-src=". " data-dst="。">。</trans></p>
 
-[Get started in 5 minutes][quickstart].
+<h2><a id="user-content-quickstart" class="anchor" href="#quickstart" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a><trans data-src="Quickstart" data-dst="快速入门" style="background: transparent;">快速入门</trans></h2>
 
+<p><a href="https://angular.io/docs/ts/latest/quickstart.html"><trans data-src="Get started in 5 minutes" data-dst="就在5分钟开始" style="background: transparent;">就在5分钟开始</trans></a><trans data-src="." data-dst="。">。</trans></p>
 
-## Want to help?
+<h2><a id="user-content-want-to-help" class="anchor" href="#want-to-help" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" role="img" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a><trans data-src="Want to help?" data-dst="要帮忙吗？" style="background: transparent;">要帮忙吗？</trans></h2>
 
-Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our
-guidelines for [contributing][contributing] and then check out one of our issues in the [hotlist: community-help](https://github.com/angular/angular/labels/hotlist%3A%20community-help).
-
-
-[contributing]: http://github.com/angular/angular/blob/master/CONTRIBUTING.md
-[dart]: http://www.dartlang.org
-[dartium]: http://www.dartlang.org/tools/dartium
-[quickstart]: https://angular.io/docs/ts/latest/quickstart.html
-[ng2]: http://angular.io
-[ngDart]: http://angulardart.org
-[ngJS]: http://angularjs.org
+<p><trans data-src="Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our
+guidelines for " data-dst="要提交一个bug，贡献了一些代码，或提高文档？很棒! 读了我们的
+指南" style="background: transparent;">要提交一个bug，贡献了一些代码，或提高文档？很棒! 读了我们的
+指南</trans><a href="http://github.com/angular/angular/blob/master/CONTRIBUTING.md"><trans data-src="contributing" data-dst="贡献">贡献</trans></a><trans data-src=" and then check out one of our issues in the " data-dst="再看看我们的一个问题在">再看看我们的一个问题在</trans><a href="https://github.com/angular/angular/labels/hotlist%3A%20community-help"><trans data-src="hotlist: community-help" data-dst="热门话题：社区帮助">热门话题：社区帮助</trans></a><trans data-src="." data-dst="。">。</trans></p>
+</article>
+  </div>
